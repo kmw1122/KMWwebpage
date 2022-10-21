@@ -1,7 +1,7 @@
-import styles from '../styles/Home.module.css'
+// import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <h1>Welcome Home</h1>
     </div>
   )
