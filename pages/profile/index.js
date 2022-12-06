@@ -1,8 +1,22 @@
-export default function ProfileDefault() {
+import Link from 'next/link'
+
+export default function ProfileDefault({ children }) {
   return (
     <div>
-      <h1>Profile page</h1>
-      <p> path: /profile </p>
+      <h1>나의 포트폴리오 </h1>
+      <div className="box1">
+        1-1: Nextjs 테스트 예제 주소(github) : https://github.com/kmw1122/was
+        1-2: Nextjs 테스트 예제 주소(vercel) : https://was-kmw1122.vercel.app/
+        2-1: NextShop 예제 주소(github) : https://github.com/kmw1122/nextshop
+        2-2: NextShop 예제 주소(vercel) : https://nextshop-z4ws.vercel.app/
+      </div>
+      <div className="box2">
+        1-1: Nextshop 테스트 예제 주소(github) :
+        https://github.com/kmw1122/nextshop 1-2: Nextshop 테스트 예제
+        주소(vercel) : 2-1: 개인 포트폴리오 웹사이트(github) :
+        https://github.com/kmw1122/nextshop 2-2: 개인 포트폴리오
+        웹사이트(vercel) : https://nextshop-z4ws.vercel.app/
+      </div>
     </div>
   )
 }

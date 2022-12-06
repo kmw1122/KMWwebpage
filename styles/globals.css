@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -23,4 +27,35 @@ a {
     color: white;
     background: black;
   }
+}
+
+.card {
+  @apply mb-5 block rounded-lg border border-gray-200 shadow-md;
+}
+.primary-button {
+  @apply rounded bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400 active:bg-amber-500;
+}
+
+.box1 {
+  width: 500px;
+  height: 500px;
+  border: 10px solid #eaeaea;
+  border-color: black;
+  display: inline-block;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  padding-top: 150px;
+  word-wrap: break-word;
+}
+
+.box2 {
+  width: 500px;
+  height: 500px;
+  border: 10px solid #eaeaea;
+  border-color: black;
+  display: inline-block;
+  text-align: center;
+  padding-top: 150px;
+  word-wrap: break-word;
 }

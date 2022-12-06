@@ -8,8 +8,8 @@ export default function Home() {
       <Head>
         <title> Home - Next Tutorial</title>
       </Head>
-      <Link href="about">About</Link>
-      <h1>Welcome Home</h1>
+
+      <h1>메인 페이지</h1>
     </div>
   )
 }
