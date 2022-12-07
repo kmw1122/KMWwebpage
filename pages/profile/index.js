@@ -6,7 +6,6 @@ export default function ProfileDefault({ children }) {
       <h1>나의 포트폴리오</h1>
 
       <div className="box1">
-        {' '}
         <div>1학기</div>
         <hr />
         1-1: Nextjs 테스트 예제 주소(github) : https://github.com/kmw1122/was
