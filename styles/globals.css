@@ -40,22 +40,24 @@ a {
   width: 500px;
   height: 500px;
   border: 10px solid #eaeaea;
-  border-color: black;
+  border-color: rgb(98, 114, 185);
   display: inline-block;
   margin-left: 300px;
   margin-right: 300px;
   text-align: center;
   padding-top: 150px;
   word-wrap: break-word;
+  font-size: 20px;
 }
 
 .box2 {
   width: 500px;
   height: 500px;
   border: 10px solid #eaeaea;
-  border-color: black;
+  border-color: rgb(175, 29, 29);
   display: inline-block;
   text-align: center;
   padding-top: 150px;
   word-wrap: break-word;
+  font-size: 20px;
 }
